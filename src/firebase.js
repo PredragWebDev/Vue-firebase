@@ -33,13 +33,13 @@ if (isNotTestEnv) {
       .then(result => json = result.data)
       .catch(error => {
         if (error.response.status) {
-          const firebaseProjectId = 'TODO';
+          const firebaseProjectId = 'vue-test-project-2aa05';
           json = {
-            "apiKey": "TODO",
-            "appId": "TODO",
+            "apiKey": "AIzaSyADsV61bthw4mqUUr8JhVIZ4cDiOgr7KIs",
+            "appId": "1:277582163211:web:de764260b4792de680c60e",
             "authDomain": `${firebaseProjectId}.firebaseapp.com`,
             "databaseURL": `https://${firebaseProjectId}.firebaseio.com`,
-            "messagingSenderId": "TODO",
+            "messagingSenderId": "277582163211",
             "projectId": firebaseProjectId,
             "storageBucket": `${firebaseProjectId}.appspot.com`
           }
